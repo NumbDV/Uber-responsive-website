@@ -168,6 +168,7 @@ nav {
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
+    line-height: 1;
 }
 
 .benefits .benefits_block {
@@ -202,4 +203,40 @@ nav {
     font-size: 15px;
     font-weight: 300;
     line-height: 21px;
+}
+
+.mobile_app {
+    padding: 48px 0 80px;
+}
+.mobile_app .section_name {
+    margin: 0 auto;
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 24px;
+}
+
+.mobile_app .mobile_app_title {
+    margin-top: 38px;
+    margin-bottom: 0;
+    color: #222222;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+}
+
+.mobile_app .mobile_app_text {
+    margin-top: 22px;
+    color: #222222;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1;
 }
