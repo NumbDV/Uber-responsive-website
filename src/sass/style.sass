@@ -362,30 +362,32 @@ nav
         text-transform: uppercase
         text-align: center
 .footer
-    padding: 14px 23px 39px 23px
+    a
+        &:hover
+            text-decoration: none
 
     &_line
         width: 299px
         height: 4px
         background-color: #1fbad6
-        margin: 0 auto
+        margin: 14px auto 0
     &_block
         display: flex
         justify-content: space-between
         align-items: flex-start
-        padding-top: 33px
+        padding: 33px 23px 39px 23px
     &_block > div
         width: 33%
-		&:nth-child(3)
-			display: flex 
-			justify-content: flex-end
+        &:nth-child(3)
+            display: flex 
+            justify-content: flex-end
     &_social
         width: 160px
         display: flex
         justify-content: space-between
         &_item
             display: flex
-            justify-content: space-between
+            justify-content: center
             align-items: center
             margin: 0 4px
             width: 32px
@@ -394,3 +396,33 @@ nav
             border-radius: 100%
             i
                 color: #fff
+    &_links
+        width: 390px
+        margin: 0 auto
+        &_main
+            padding: 0 10px
+            display: flex
+            justify-content: space-between
+            
+            a
+                font-size: 15px
+                font-weight: 300
+                text-transform: uppercase
+                color: #070716
+        &_sub
+            display: flex
+            justify-content: space-between
+            margin-top: 12px
+            a
+                color: #999999
+                font-size: 11px
+                font-weight: 300
+                text-transform: uppercase
+        &_lang
+            color: #1fbad6
+            display: block
+            margin: 19px auto 0
+            font-size: 11px
+            font-weight: 400
+            text-transform: uppercase
+            text-align: center
