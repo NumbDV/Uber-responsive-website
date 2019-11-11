@@ -341,13 +341,17 @@ nav
                 &::before
                     background: url('../icons/red_point.png') center center / cover no-repeat
                     
-.map 
+.map
+    position: relative
     background: url('/src/img/map_bg.png') center center / cover no-repeat
-    height: 717px     
+    min-height: 717px     
     padding: 49px 0
     &_cities
-        display: block
-        margin-top: 485px
+        position: absolute
+        left: 50%
+        transform: translateX(-50%)
+        bottom: 49px
+        text-align: center
         color: #1fbad6
         font-size: 15px
         font-weight: 400
@@ -418,3 +422,6 @@ nav
             font-weight: 400
             text-transform: uppercase
             text-align: center
+.xs-visible
+    display: none
+    
